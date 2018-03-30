@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+} 
+
+#wrapper{
+    background-color: white;
+    height: 800px;
+    width: 919px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    /* overflow: hidden; */
+}
+#contentColor{
+    background-color:#245076;;
+}
+#header{
+    display: flex;
+}
+#rightHead{
+    position: relative;
+    left: 120px;
+    top: 26px;
+}
+#rightHead li{
+    display: inline;
+}
+#rightHead a{
+    color:#9e941d;
+    
+}
+#rightHead li:first-child{
+    border-right: 1px solid black;
+}
+#rightHead p{
+    display: inline;
+    color: white;
+    font-size: 15px;
+    position:relative;
+    bottom: 3px;
+}   
+
+#contentList2 ul li{
+    color: yellow;
+}
+
+
+#rightHead ul{
+    display: inline;
+    position:relative;
+    bottom: 3px;
+
+}
+#buttonBg{
+    background-color:#444444;
+    width: 266px;
+    height: 70px;
+    position: relative;
+    right: 60px;
+    border-radius: 10px;  
+}
+
+input{
+    position: relative;
+    top: 15px;
+    left: 40px;
+    height:34px;
+    width: 150px;
+}
+
+.button{
+    height:32px;
+    width: 40px;
+    background-color:#245076;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.searchB{
+    text-align: center;
+}
+input[type=text]{
+    text-align: center;
+}
+
+
+/* the vertical links*/
+#links ul{
+    display: inline;
+    list-style-type: none;
+    display: flex;
+    }
+    #links ul li{
+        margin: 15px 20px;
+        font-size: 20px;
+        color: white;
+        position: relative;
+        left: 50px;
+        
+        }
+    
+
+#links{
+    background-color:#407aad;
+    height: 50px;
+    width: 790px;
+    position: relative;
+    left: 80px;
+    border-radius: 5px;
+    bottom: 5px;
+}
+#firstContent{
+    display: flex;
+    width: 919px;   
+    
+}
+#firstContentA{
+    position: relative;
+    margin: 30px;
+    left: 40px;
+}
+#firstContentA ul { 
+    width: 120px;
+} 
+#firstContentA ul li{
+    position: relative;
+    left: 40px;
+    padding-bottom:5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;  
+}
+#firstContentA a{
+    color: white;  
+}
+
+
+#firstContentB ul{
+    list-style-type: none;
+    
+}
+#firstContentB p{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 40px;
+    padding-right: 70px;
+    padding-left: 50px;
+    text-indent: 20px;
+    font-size: 14px;
+}
+#firstContentB ul li{
+    color: #bcab38;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    padding-bottom: 5px;
+}
+#firstContentB ul li:nth-child(6){
+    color: white;
+    
+}
+
+/* side by side is for getting started and Application */
+#sidebyside{
+    display: flex;
+    margin: 50px 0px;
+    background-color: white;
+    width: 919px;   
+}
+hr{
+    height: 2px;
+    background-color: #72a7d5;
+}
+   
+
+#sidebyside ul{
+    /* color:#9fc3e1; */
+    color: black;
+    margin-left: 50px;
+    list-style-type: square;
+}
+#sidebyside ul li p{
+color: #9fc3e1;;
+}
+.sameSide a{
+text-decoration: none;
+color: #72a7d5;
+}
+/* #textChange{
+    color:#72a7d5;
+    position: relative;
+    left: 10px;
+} */
+.sameSide{
+    width: 420px;
+    margin: 20px;
+}
+.move{
+    font-size:15px;
+}
+
+span{
+    position: relative;
+    left: 170px;
+}
+#footer{
+    background-color: #275882;
+    width: 919px;
+}
+#footer ul{
+    display: flex;
+    list-style-type: none;
+    
+    }
+    #footer ul li{
+        margin: 15px 20px;
+        /* font-size: 20px; */
+        color: #79acd9;
+        position: relative;
+        left: 180px;
+        }
+#footer p{
+    color: #79acd9;
+    position: relative;
+        left: 400px;
+        font-size: 12px;
+}
+/* #links ul{
+    display: inline;
+    list-style-type: none;
+    display: flex;
+    }
+    #footer ul li{
+        margin: 15px 20px;
+        font-size: 20px;
+        color: white;
+        position: relative;
+        left: 50px;
+        
+        }
+    
+
+#links{
+    background-color:#407aad;
+    height: 50px;
+    width: 790px;
+    position: relative;
+    left: 80px;
+    border-radius: 5px;
+    bottom: 5px;
+} */
